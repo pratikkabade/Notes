@@ -36,3 +36,102 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* custom changes */
+/* text  */
+h3 span, h5 span{
+  color: var(--accentdark);
+}
+.h3Title{
+  border-bottom: 1px solid var(--imptext);
+  color: var(--imptext);
+  text-align: center;
+  margin-bottom: 15px;
+}
+.h5Time{
+  background-color: #baf2ff53;
+  border-radius: 10px;
+  text-align: center;
+}
+.h3Content{
+  text-align: center;
+}
+
+/* modal  */
+.btn{
+  border-radius: 10px;
+}
+.modal{
+  backdrop-filter: blur(1.2);
+}
+.modal-content{
+  border-radius: 10px;
+}
+.modal-body{
+  text-align: center;
+  margin: 10px;
+}
+.formContent{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  color: var(--gray);
+  border: 1px solid var(--black);
+  background: #fff;
+  border: 1px solid var(--accent);
+  width: 30%;
+  font-weight: 600;
+  resize: none;
+  transition: 0.3s;
+}
+.formContent:focus{
+  outline: none;
+  color: var(--imptext);
+  border: 2px solid var(--accent);
+  background: var(--accentdim2);
+  box-shadow: var(--shadowsmall);
+  user-select: all;
+  transition: 0.3s;
+}
+#formTitle{
+  width: 65%;
+}
+#formContent{
+  width: 65%;
+}
+.btn{
+  font-weight: 600;
+}
+
+/* context  */
+.Paper{
+  background-color: var(--accentdim2);
+  border-radius: 20px;
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+}
+.App{
+  margin-top: 70px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* footer  */
+.footer{
+  width: 100%;
+  position: fixed;
+  padding: 10px;
+  bottom: 0%;
+  background-color: rgba(234, 249, 255, 0.6) !important;
+  backdrop-filter: blur(5px) !important;
+  display: flex;
+  justify-content: center;
+}
+
