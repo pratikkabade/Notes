@@ -1,0 +1,19 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#dvsTop {
+  background-color: rgb(251, 254, 255);
+}
+
+#customNav {
+  background-color: rgba(234, 249, 255, 0.6) !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+#hrtLogo {
+  box-shadow: var(--shadowsmall);
+  width: 100px;
+}
